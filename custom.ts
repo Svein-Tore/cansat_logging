@@ -14,10 +14,7 @@
 *
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
-* Last Updated 2020-02-13-1520 testing changes
-*This chage is shown
-*This is also shown yes
-*ha ha ha he
+* Last Updated 2020-02-13-1520 
 */
 /**
  * makecode BMP280 digital pressure sensor Package.
@@ -56,7 +53,7 @@ namespace GPS {
         let GPS_data = NMEAString.split(',')
         let latitude_parted = GPS_data[2].split(".")
         //format: (d)ddmm.mmmm eller ddmm.mmmm
-        //Må multiplisere med 100 for å få nøyaktig nok verdi (får da 2 flere desimaler).  
+        //Må multiplisere med 10000 for å få nøyaktig nok verdi (får da 2 flere desimaler).  
         let WholeNumberString = convertToText(parseInt(latitude_parted[0]))
         latitude = parseInt(WholeNumberString.substr(0, 2)) * 10000 + parseFloat(WholeNumberString.substr(2, 2)) * 10000 / 60 + parseFloat("0." + latitude_parted[1]) * 10000 / 60
         return latitude
