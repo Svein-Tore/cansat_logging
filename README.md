@@ -12,7 +12,7 @@ Dette  repository kan legges til som en **Utvidelse** i MakeCode.
 
 ## Hvordan redigere dette prosjektet: ![Bygg statusmerke](https://github.com/svein-tore/cansat_logging/workflows/MakeCode/badge.svg)
 
-redigere repository i MakeCode.
+**Redigere repository i MakeCode:**
 
 * åpne [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klikk på **Importer** og så på **Importér URL**
