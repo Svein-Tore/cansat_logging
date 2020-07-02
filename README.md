@@ -10,7 +10,7 @@ Dette  repository kan legges til som en **Utvidelse** i MakeCode.
 * klikk på **Utvidelser** i menyen under tannhjulet
 * søk etter **https://github.com/svein-tore/cansat_logging** og importér
 
-##Hvordan rediger dette prosjektet: ![Bygg statusmerke](https://github.com/svein-tore/cansat_logging/workflows/MakeCode/badge.svg)
+## Hvordan redigere dette prosjektet: ![Bygg statusmerke](https://github.com/svein-tore/cansat_logging/workflows/MakeCode/badge.svg)
 
 redigere repository i MakeCode.
 
