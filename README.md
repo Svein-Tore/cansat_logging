@@ -25,7 +25,3 @@ This image may take a few minutes to refresh.
 
 ![En opptegnet visning av blokkene](https://github.com/svein-tore/cansat_logging/raw/master/.github/makecode/blocks.png)
 
-#### Metadata (brukes for søk, visualisering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
