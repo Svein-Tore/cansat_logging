@@ -1,9 +1,9 @@
 
 > Open this page at [https://svein-tore.github.io/cansat_logging/](https://svein-tore.github.io/cansat_logging/)
 
-## Use as Extension
+## Bruke som utvidelse
 
-This repository can be added as an **extension** in MakeCode.
+Dette  repository kan leggers til som en **Utvidelse** i MakeCode.
 
 * åpne [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klikk på **Nytt prosjekt**
