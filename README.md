@@ -3,7 +3,7 @@
 
 ## Bruke som utvidelse
 
-Dette  repository kan leggers til som en **Utvidelse** i MakeCode.
+Dette  repository kan legges til som en **Utvidelse** i MakeCode.
 
 * åpne [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klikk på **Nytt prosjekt**
