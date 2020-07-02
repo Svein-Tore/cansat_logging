@@ -1,5 +1,5 @@
 
-> Open this page at [https://svein-tore.github.io/cansat_logging/](https://svein-tore.github.io/cansat_logging/)
+Åpne side her: [https://svein-tore.github.io/cansat_logging/](https://svein-tore.github.io/cansat_logging/)
 
 ## Bruke som utvidelse
 
