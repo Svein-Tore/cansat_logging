@@ -1,5 +1,5 @@
 
-Åpne side her: [https://svein-tore.github.io/cansat_logging/](https://svein-tore.github.io/cansat_logging/)
+Åpne siden her: [https://svein-tore.github.io/cansat_logging/](https://svein-tore.github.io/cansat_logging/)
 
 ## Bruke som utvidelse
 
@@ -10,9 +10,9 @@ Dette  repository kan legges til som en **Utvidelse** i MakeCode.
 * klikk på **Utvidelser** i menyen under tannhjulet
 * søk etter **https://github.com/svein-tore/cansat_logging** og importér
 
-## Edit this project ![Bygg statusmerke](https://github.com/svein-tore/cansat_logging/workflows/MakeCode/badge.svg)
+##Hvordan rediger dette prosjektet: ![Bygg statusmerke](https://github.com/svein-tore/cansat_logging/workflows/MakeCode/badge.svg)
 
-To edit this repository in MakeCode.
+redigere repository i MakeCode.
 
 * åpne [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klikk på **Importer** og så på **Importér URL**
