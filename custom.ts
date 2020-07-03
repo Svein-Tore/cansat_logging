@@ -16,11 +16,6 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * Last Updated 2020-02-13-1520 
 */
-/**
- * makecode BMP280 digital pressure sensor Package.
- * From microbit/micropython Chinese community.
- * http://www.micropython.org.cn
- */
 //% weight=100 color=#0fbc11 icon=""
 namespace GPS {
     let NMEAString = ""
