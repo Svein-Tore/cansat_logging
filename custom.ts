@@ -16,9 +16,33 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * Last Updated 2020-02-13-1520 
 */
+
 //% weight=100 color=#0fbc11 icon=""
 namespace GPS {
     let NMEAString = ""
+    function get_NMEA_string():string {
+    let NMEAString=""
+    let NotEOL = true
+    let counter = 0
+    for (let index = 0; index < 3; index++) {
+        while (NotEOL) {
+            let Byte = pins.i2cReadNumber(66, NumberFormat.UInt8LE, false)
+            if (Byte < 255) {
+                NMEAString = "" + NMEAString + String.fromCharCode(Byte)
+                if (String.fromCharCode(Byte) == "*") {
+                    NotEOL = false
+                }
+            }
+        }
+        counter += 1
+        if (counter == 2) {
+            NMEAString = ""
+        }
+        NotEOL = true
+    }
+    return NMEAString
+}
+    
     /**
      * Get latitude from GPS sensor
      */
