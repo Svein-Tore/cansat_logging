@@ -50,25 +50,7 @@ namespace GPS {
     export function Latitude(): number {
         //let NMEAString = ""
         let latitude = 0
-        let NotEOL = true
-        let counter = 0
-        for (let index = 0; index < 3; index++) {
-            while (NotEOL) {
-                let Byte = pins.i2cReadNumber(66, NumberFormat.UInt8LE, false)
-                if (Byte < 255) {
-                    NMEAString = "" + NMEAString + String.fromCharCode(Byte)
-                    if (String.fromCharCode(Byte) == "*") {
-                        NotEOL = false
-                    }
-                }
-            }
-            counter += 1
-            if (counter == 2) {
-                NMEAString = ""
-            }
-            NotEOL = true
-        }
-        //basic.showString(NMEAString)
+        let NMEAString=""+get_NMEA_string()
         let GPS_data = NMEAString.split(',')
         let latitude_parted = GPS_data[2].split(".")
         //format: (d)ddmm.mmmm eller ddmm.mmmm
@@ -80,6 +62,7 @@ namespace GPS {
     //% block
     export function Longitude(): number {
         let longitude = 0
+        let NMEAString=""+get_NMEA_string()
         let GPS_data = NMEAString.split(',')
         let longitude_parted = GPS_data[4].split(".")
         let WholeNumberString = convertToText(parseInt(longitude_parted[0]))
@@ -89,6 +72,7 @@ namespace GPS {
     //% block
     export function Altitude():number {
         let Altitude=0
+        let NMEAString=""+get_NMEA_string()
         let GPS_data = NMEAString.split(',')
         let altitude = GPS_data[9]
         return parseFloat(altitude.substr(0, 5))
