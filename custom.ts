@@ -26,7 +26,7 @@ namespace GPS {
     let counter = 0
     for (let index = 0; index < 3; index++) {
         while (NotEOL) {
-            let Byte = pins.i2cReadNumber(66, NumberFormat.UInt8LE, false)
+            let Byte = pins.i2cReadNumber(16, NumberFormat.UInt8LE, false)
             if (Byte < 255) {
                 NMEAString = "" + NMEAString + String.fromCharCode(Byte)
                 if (String.fromCharCode(Byte) == "*") {
